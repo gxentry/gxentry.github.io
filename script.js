@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
   const loader = document.getElementById("loader");
   const content = document.getElementById("content");
   const title = document.getElementById("title");
@@ -43,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
     snapToNearest();
   }, 150);
 });
-
 
   function snapToNearest() {
     const images = Array.from(gallery.querySelectorAll("img"));
@@ -112,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     loader.style.display = "none";
     content.classList.remove("hidden");
-
     setTimeout(() => {
       title.classList.add("show");
       about.classList.add("show");
@@ -121,9 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
         socials.style.opacity = 1;
       }, 800);
-
     }, 300);
-
   }, 800);
 
   const ABOUT_TEXT = `

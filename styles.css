@@ -47,7 +47,6 @@ main {
   gap: 28px;
 }
 
-/* Title */
 #title {
   font-size: 3rem;
   font-weight: 800;
@@ -99,7 +98,6 @@ main {
   scroll-snap-align: center;
 }
 
-
 .gallery::-webkit-scrollbar {
   display: none;
 }
@@ -127,7 +125,6 @@ main {
   font-size: 2.5rem;
   cursor: pointer;
   z-index: 10;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +149,6 @@ main {
   border-radius: 0 14px 14px 0;
   transform: translateY(-52%);
 }
-
 
 #about {
   max-width: 600px;
